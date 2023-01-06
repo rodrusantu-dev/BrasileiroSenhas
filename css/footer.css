@@ -1,0 +1,23 @@
+/*CSS PADRÃO DO FOOTER - BIZURADO DEV*/
+.footer {
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    text-align: center;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1b1d1a;
+    font-size: 17px;   
+}
+
+.footerLinhaA {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.footerLinhaB {
+    font-weight: 200;
+    color: rgb(228, 225, 225);
+}
+
+

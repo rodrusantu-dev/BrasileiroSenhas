@@ -1,0 +1,50 @@
+body{
+    background: #d7e5e2;
+}
+
+.tipoSenha {
+    text-align: left;
+    padding-top: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.intro2 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    
+}
+
+.botao{
+    text-align: center;  
+}
+.btns { 
+    background-color: #2d5a1b;
+    width: 200px;
+    height: 70px;
+    border: none;
+    color: rgb(255, 251, 0);
+    font-size: 22px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    border-radius: 5px;  
+    
+}
+
+.campoSenha1 {
+    color: rgb(17, 92, 2);
+    text-decoration: solid;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;     
+}
+
+.campoSenha2 {
+    color: rgb(4, 45, 228);
+    text-decoration: solid;
+    font-weight: 900;
+    font-size: 35px;     
+}
+

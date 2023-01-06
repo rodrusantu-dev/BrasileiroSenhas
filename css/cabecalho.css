@@ -1,0 +1,15 @@
+/*CSS PADRÃO DO HEADER - BIZURADO DEV*/
+.container-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4da75c;
+    border-bottom: 12px solid #a5bac5;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fbff07;
+    font-size: 25px;
+} 
+
+

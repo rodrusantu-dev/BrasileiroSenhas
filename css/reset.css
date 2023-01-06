@@ -1,0 +1,22 @@
+/*RESET A MARGEM PADRÃO DO NAVEGADOR*/
+* {
+    margin: 0 0 0 0; 
+    font-family: 'roboto slab', serif; 
+}
+
+/*PADRONIZA OS TÍTULOS EM GERAL*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto slab', serif;
+    font-weight: 800;  
+    padding-bottom: 20px; 
+           
+}
+
+
+
+
+    
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+    <!--CONFIGURAÇÕES INTERNAS DO HTML-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerador de Senhas</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/cabecalho.css"> 
+        <link rel="stylesheet" href="./css/footer.css">  
+        <link rel="stylesheet" href="./css/reset.css"> 
+        <link rel="stylesheet" href="./css/style.css">   
+        <script src="./js/script.js" defer></script>
+        <link rel="shortcut icon" href="./img/br.ico" type="image/x-icon">   
+    </head>
+
+    <body>
+        <!--HEADER -->
+        <header class="container-cabecalho">   
+                <h1>Brasileiro SENHAS</h1>
+                <p>"Sua senha de modo SEGURO!"</p>
+        </header>
+
+        <!--BLOCO DE CONFIGURAÇÃO DA SENHA-->
+        <div class="tipoSenha">  
+            <p class="tipoSenha">Quantos caracteres: <input type="number" name="" id="numeroCaractere"></p>
+            <br>
+            <label for="password-type-select">Tipo de senha:</label>
+                <select id="password-type-select">
+                        <option value="letras">Apenas letras</option>
+                        <option value="letrasEnumeros">Letras e números</option>
+                        <option value="tudo">Letras, números e caracteres especiais</option>
+                </select>
+        </div>
+        
+        <br><br>
+
+        <div class="botao">
+            <button class="btns" id="generate-button">Gerar Senha</button>
+            <br><br>
+            <p class="campoSenha1" >Sua senha é...</p>
+            <p class="campoSenha2"  id="password-display"></p>
+        </div>
+        <br>               
+    </body>
+
+    <!--FOOTER PADRÃO BIZURADO DEV-->
+    <footer class="footer">
+        <div class="footerLinhaA">
+            <p>Criado por Rodrigo Menezes - 2022</p>
+        <small>Meu perfil do GitHub: <a href="https://github.com/rodrusantu-dev">https://github.com/rodrusantu-dev</a> </small>
+        </div>
+        <br>     
+    </footer>
+</html>
