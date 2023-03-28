@@ -19,21 +19,6 @@ function generatePassword(length, type) {
           return password;
 }
    
-
-/*
-// ***BLOCO OK
-    let password = '';
-
-    for (let i = 0; i < length; i++) {
-      // Escolha um índice aleatório da string de caracteres
-      const index = Math.floor(Math.random() * characters.length);
-
-      // Adicione o caractere correspondente à senha
-      password += characters[index];
-    }
-    return password;
-}
-*/
 // ***BLOCO OK - QUANTIDADE DE CARACTERES E INFORMAR NA TELA
 const generateButton = document.getElementById('generate-button');
 const passwordDisplay = document.getElementById('password-display');
